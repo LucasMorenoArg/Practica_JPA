@@ -14,7 +14,7 @@ import java.util.Optional;
 import java.util.concurrent.Callable;
 
 @SpringBootApplication
-public class PracticaJpaApplication implements CommandLineRunner {
+public class PracticaJpaApplication /*implements CommandLineRunner*/ {
 
 	@Autowired
 	private CategoriasRepository repositorioCategorias;
@@ -26,7 +26,7 @@ public class PracticaJpaApplication implements CommandLineRunner {
 	}
 
 
-	public void run(String... args) throws Exception {
+	/*public void run(String... args) throws Exception {
 	    //guardar();
 		//modificarById();
 		//buscarxId();
@@ -34,7 +34,7 @@ public class PracticaJpaApplication implements CommandLineRunner {
 		//buscarxId();
 
 		//eee();
-	}
+	}*/
 
 
 	private void eee() {
